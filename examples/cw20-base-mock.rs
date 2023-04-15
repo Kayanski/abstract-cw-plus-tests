@@ -1,7 +1,7 @@
+use boot_core::*;
+use cw20::msg::Cw20ExecuteMsgFns;
 use cw20::Cw20Coin;
 use cw20_base::msg::QueryMsgFns;
-use cw20::msg::Cw20ExecuteMsgFns;
-use boot_core::*;
 
 use cosmwasm_std::Addr;
 use cw20_base::contract::Cw20Base;
@@ -54,7 +54,8 @@ fn cw20_example<Chain: CwEnv>(chain: Chain) -> anyhow::Result<()> {
     assert_eq!(balance.balance.u128(), 999900u128.into());
 
     // Send with the macro-generated function
-    let transfer_resp = cw20_base_contracts.transfer(100u128.into(), "recipient_addr".to_string())?;
+    let transfer_resp =
+        cw20_base_contracts.transfer(100u128.into(), "recipient_addr".to_string())?;
     assert_eq!(
         // index the response
         transfer_resp.event_attr_value("wasm", "amount")?,
