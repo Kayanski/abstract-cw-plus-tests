@@ -21,12 +21,12 @@ name              = "cw20-base-mock"
 boot-core = { git = "https://github.com/Kayanski/BOOT", branch = "feature/new-contract-interface", features = ["daemon"] }
 
 #contracts
-cw1-subkeys        	= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["script"] }
-cw1-whitelist      	= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["script"] }
-cw20-base	      	= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["script"] }
+cw1-subkeys        	= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["boot"] }
+cw1-whitelist      	= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["boot"] }
+cw20-base	      	= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["boot"] }
 
 #packages
-cw20				= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["script"]}
+cw20				= { git = "https://github.com/Kayanski/cw-plus", branch = "features/simpler_without_flags", features=["boot"]}
 
 # For bin
 tokio   = { version = "1", features = ["full"] }

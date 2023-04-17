@@ -246,7 +246,7 @@ dependencies = [
 [[package]]
 name = "boot-contract-derive"
 version = "0.10.0"
-source = "git+https://github.com/Kayanski/BOOT?branch=feature/new-contract-interface#b56008fff129f307bc28c403ff1a2873f041d765"
+source = "git+https://github.com/Kayanski/BOOT?branch=feature/new-contract-interface#bd0bf46009066178b032d81cf30b984a96d589ae"
 dependencies = [
  "convert_case",
  "cosmwasm-std",
@@ -261,7 +261,7 @@ dependencies = [
 [[package]]
 name = "boot-core"
 version = "0.10.0"
-source = "git+https://github.com/Kayanski/BOOT?branch=feature/new-contract-interface#b56008fff129f307bc28c403ff1a2873f041d765"
+source = "git+https://github.com/Kayanski/BOOT?branch=feature/new-contract-interface#bd0bf46009066178b032d81cf30b984a96d589ae"
 dependencies = [
  "anyhow",
  "base16",
@@ -298,7 +298,7 @@ dependencies = [
 [[package]]
 name = "boot-fns-derive"
 version = "0.10.0"
-source = "git+https://github.com/Kayanski/BOOT?branch=feature/new-contract-interface#b56008fff129f307bc28c403ff1a2873f041d765"
+source = "git+https://github.com/Kayanski/BOOT?branch=feature/new-contract-interface#bd0bf46009066178b032d81cf30b984a96d589ae"
 dependencies = [
  "convert_case",
  "proc-macro2",
@@ -644,11 +644,8 @@ dependencies = [
 [[package]]
 name = "cw1"
 version = "1.0.1"
-source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#0189fa7f05188f3c90ccebf6f268eb174e610b1b"
+source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#3755e223c3a8f2b273f5488c5ecc9aeeae3f89ce"
 dependencies = [
- "boot-contract-derive",
- "boot-core",
- "boot-fns-derive",
  "cosmwasm-schema",
  "cosmwasm-std",
  "schemars",
@@ -658,7 +655,7 @@ dependencies = [
 [[package]]
 name = "cw1-subkeys"
 version = "1.0.1"
-source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#0189fa7f05188f3c90ccebf6f268eb174e610b1b"
+source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#3755e223c3a8f2b273f5488c5ecc9aeeae3f89ce"
 dependencies = [
  "boot-contract-derive",
  "boot-core",
@@ -679,7 +676,7 @@ dependencies = [
 [[package]]
 name = "cw1-whitelist"
 version = "1.0.1"
-source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#0189fa7f05188f3c90ccebf6f268eb174e610b1b"
+source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#3755e223c3a8f2b273f5488c5ecc9aeeae3f89ce"
 dependencies = [
  "boot-contract-derive",
  "boot-core",
@@ -711,7 +708,7 @@ dependencies = [
 [[package]]
 name = "cw2"
 version = "1.0.1"
-source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#0189fa7f05188f3c90ccebf6f268eb174e610b1b"
+source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#3755e223c3a8f2b273f5488c5ecc9aeeae3f89ce"
 dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std",
@@ -724,7 +721,7 @@ dependencies = [
 [[package]]
 name = "cw20"
 version = "1.0.1"
-source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#0189fa7f05188f3c90ccebf6f268eb174e610b1b"
+source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#3755e223c3a8f2b273f5488c5ecc9aeeae3f89ce"
 dependencies = [
  "boot-contract-derive",
  "boot-core",
@@ -739,7 +736,7 @@ dependencies = [
 [[package]]
 name = "cw20-base"
 version = "1.0.1"
-source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#0189fa7f05188f3c90ccebf6f268eb174e610b1b"
+source = "git+https://github.com/Kayanski/cw-plus?branch=features/simpler_without_flags#3755e223c3a8f2b273f5488c5ecc9aeeae3f89ce"
 dependencies = [
  "boot-contract-derive",
  "boot-core",
